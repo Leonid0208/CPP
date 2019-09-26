@@ -1,0 +1,4 @@
+﻿  6.cpp
+C:\Users\Leonid\source\repos\6\6.cpp(16,5): warning C4554:  "&": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+C:\Users\Leonid\source\repos\6\6.cpp(8,18): warning C4101:  x: неиспользованная локальная переменная
+  6.vcxproj -> C:\Users\Leonid\source\repos\6\Debug\6.exe
