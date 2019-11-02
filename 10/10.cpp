@@ -6,20 +6,24 @@ int main()
 	LC_ALL(setlocale, "RUSSIAN");
 	double a, res, minus;
 	int b;
-	res = 1;
-	cin >> a;
-	cin >> b;
-	if (b < 0) {
-		if (b % 2 != 0) {
-			minus = -1;
-		}
-		b = b * (-1);
-	}
-	if (b == 0) {
+	while (true) {
 		res = 1;
+		cin >> a;
+		cin >> b;
+
+		
+		for (int i = 0; i < abs(b); i++) {
+			res = res * a;
+		}
+		if (b < 0) {
+			if (res != 0)
+				cout << 1 / res << endl;
+			else
+				cout << "Ошибка" << endl;
+		}
+		else if (b > 0)
+			cout << res << endl;
+		else
+			cout << 1 << endl;
 	}
-	for (int i = 0; i < b; i++) {
-		res = res * a;
-	}
-	cout << res*minus;
 }

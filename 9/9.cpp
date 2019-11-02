@@ -14,7 +14,7 @@ int main()
 	int answer = 1;
 	while (answer == 1) {
 		bool win = false;
-		//srand(time(NULL));
+		srand(time(NULL));
 		randomC = rand() % n;
 		cout << "Добро пожаловать в игру 'Отгадайте число от 1 до 100'" << endl;
 		cout << "Введите число от 1 до 100" << endl;

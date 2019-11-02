@@ -14,10 +14,10 @@ void factorization(int n) {
 			}
 			if (prev!=i && prev !=0) {
 				if (s == 1) {
-					cout << prev << " ";
+					cout << prev << " * ";
 				}
 				else {
-					cout << prev << "^" << s << " ";
+					cout << prev << "^" << s << " * ";
 				}
 			}
 			if (v == 1) {
