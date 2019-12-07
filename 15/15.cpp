@@ -2,18 +2,18 @@
 using namespace std;
 int main()
 {
-	///*setlocale(lc_all, "russian");
-	//const int pred = 1000001;
-	//int n, i, first;
-	//i = 0;
-	//int n1, n2, n3, n4, n5;
-	//n1 = pred;
-	//n2 = pred;
-	//n3 = pred;
-	//n4 = pred;
-	//n5 = pred;
-	//cout << "введите колличество чисел, которые хотите отсортировать" << endl;
-	//cin >> n;*/
+	setlocale(LC_ALL, "russian");
+	const int PRED = 0;
+	int n, i, first;
+	i = 0;
+	int n1, n2, n3, n4, n5;
+	n1 = PRED;
+	n2 = PRED;
+	n3 = PRED;
+	n4 = PRED;
+	n5 = PRED;
+	cout << "Введите колличество чисел, которые хотите отсортировать" << endl;
+	cin >> n;
 
 	while (i < n) {
 		i += 1;
