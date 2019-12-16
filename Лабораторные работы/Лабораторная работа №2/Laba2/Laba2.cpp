@@ -18,10 +18,10 @@ int main() {
 	
 	x = Xs;
 	i = 1;
-	min = exp(x) / (3 + sin(x));
+	min = 100;
 	max = exp(x) / (3 + sin(x));
-	while (x <= Xe) {
-		if (x <= a) {
+	while (x <= Xe || abs(Xe-x)<0.0001) {
+		if (x <= a || abs(a-x)<0.0001) {
 			par = exp(x);
 		}
 		else if (a < x && x < b) {
@@ -36,7 +36,7 @@ int main() {
 		if (par > max) {
 			max = par;
 		}
-		cout << i << ": " << par << endl;
+		cout << "x = " << x << " y = " << par << endl;
 		i += 1;
 		x += Dx;
 	}
