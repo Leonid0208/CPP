@@ -157,13 +157,13 @@ TEST_F(GlobalTest, ChangePasswordWith){
     PasswordResponse pass_old, pass_new1, user_input1, pass_new2, user_input2;
     pass_old.password = "0000";
     pass_old.status = PasswordResponse::Status::OK;
-    user_input1.password = "1111";
+    user_input1.password = "9876";
     user_input1.status = PasswordResponse::Status::OK;
-    pass_new1.password = "1111";
+    pass_new1.password = "9876";
     pass_new1.status = PasswordResponse::Status::OK;
-    user_input2.password = "2222";
+    user_input2.password = "1111";
     user_input2.status = PasswordResponse::Status::OK;
-    pass_new2.password = "2222";
+    pass_new2.password = "1111";
     pass_new2.status = PasswordResponse::Status::OK;
     EXPECT_CALL(keypad, requestPassword)
             .Times(5)
