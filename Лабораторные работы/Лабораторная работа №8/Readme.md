@@ -26,14 +26,17 @@
 #### Цель: Настроить IDE Qt Creator для разработки приложений под android ОС. Изучить базовые понятия связанные с мобильной разработкой. Научиться создавать мобильные приложения при помощи фреймворка Qt 5.14.
 
 ![](https://github.com/Leonid0208/CPP/blob/master/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D1%8B%D0%B5%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%E2%84%968/img/Screen2.png)
+
 Рис.1 Окно настроек Qt Creator
 
 В качестве тестового проекта я выбрал калькулятор "Qt SCXML Calculator QML Example"
 
 ![](https://github.com/Leonid0208/CPP/blob/master/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D1%8B%D0%B5%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%E2%84%968/img/Screen3.png)
+
 Рис.2 Настройки тестового проекта
 
 ![](https://github.com/Leonid0208/CPP/blob/master/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D1%8B%D0%B5%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%E2%84%968/img/Screen4.png)
+
 Рис.3 Результат программы
 
 
